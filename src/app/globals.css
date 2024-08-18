@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Estilos globales */
+body {
+  margin: 0;
+  font-family: var(--font-inter, sans-serif);
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+main {
+  padding: 20px;
+}
+
+/* Estilos para la barra de navegación */
+nav {
+  background-color: #0070f3;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #d0d0d0;
+}
