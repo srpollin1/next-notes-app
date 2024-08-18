@@ -7,7 +7,7 @@ export default function CreateNote() {
     const [content, setContent] = useState('');
 
     return (
-        <form>
+        <form onSubmit={create}>
             <h3>Create a new Note</h3>
             <input
                 type="text"
