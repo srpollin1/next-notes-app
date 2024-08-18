@@ -6,6 +6,10 @@ export default function CreateNote() {
     const [title, setTitle] = useState('');
     const [content, setContent] = useState('');
 
+    const create = async() => {
+        
+    }
+
     return (
         <form onSubmit={create}>
             <h3>Create a new Note</h3>
